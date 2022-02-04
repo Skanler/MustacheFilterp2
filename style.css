@@ -1,0 +1,28 @@
+.body{
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: rgbcolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rgbcolor{
+    from{
+        box-shadow: 1px 1px 40px rgb(0, 140, 255);
+    }
+    to{
+        box-shadow: 1px 1px 40px hotpink;
+    }
+}
+
